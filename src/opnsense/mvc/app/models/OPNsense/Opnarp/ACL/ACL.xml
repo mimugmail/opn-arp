@@ -1,0 +1,9 @@
+<acl>
+   <page-opnarp-config>
+      <name>Services: OPN-Arp</name>
+      <patterns>
+         <pattern>ui/opnarp/*</pattern>
+         <pattern>api/opnarp/*</pattern>
+      </patterns>
+   </page-opnarp-config>
+</acl>

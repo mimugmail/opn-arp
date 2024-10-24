@@ -1,0 +1,7 @@
+<menu>
+  <Services>
+    <OPN-Arp cssClass="fa fa-arrows fa-fw">
+      <General url="/ui/opnarp/general/index" />
+    </OPN-Arp>
+  </Services>
+</menu>

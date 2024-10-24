@@ -1,0 +1,2 @@
+opn-arp:/etc/rc.conf.d/opnarp
+opn-arp.conf:/usr/local/etc/opn-arp.conf

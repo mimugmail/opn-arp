@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# $FreeBSD$
+#
+# PROVIDE: opnarp
+# REQUIRE: SERVERS
+# KEYWORD: shutdown
+#
+
+. /etc/rc.subr
+
+name=opnarp
+
+rcvar=opnarp_enable
+pidfile=/var/run/${name}.pid
+command=/usr/sbin/daemon
+command_args="-f -P ${pidfile} /usr/local/bin/bash /usr/local/bin/opn-arp.sh"
+
+load_rc_config ${name}
+
+: ${opnarp_enable="NO"}
+
+run_rc_command $1

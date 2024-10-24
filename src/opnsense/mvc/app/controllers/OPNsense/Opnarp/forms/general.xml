@@ -1,0 +1,16 @@
+<form>
+    <field>
+        <id>general.enabled</id>
+        <label>Enable</label>
+        <type>checkbox</type>
+        <help>Enable or disable OPN-Arp</help>
+    </field>
+    <field>
+        <id>general.interfaces</id>
+        <label>Interfaces</label>
+        <type>select_multiple</type>
+        <style>tokenize</style>
+        <allownew>true</allownew>
+        <help>Add interfaces you want include of not all. Please use driver names and not the label in OPNsense (like igb0). If empty it listens on all interfaces</help>
+    </field>
+</form>
